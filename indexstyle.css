@@ -43,13 +43,6 @@ ul {
     list-style: none;
 }
 
-body {
-    font-family: 'NanumBarunGothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-
 #best_item ul li:hover .w_box {
     top: 0;
     transition: all 1s;
