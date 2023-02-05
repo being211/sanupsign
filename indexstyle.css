@@ -105,7 +105,7 @@ ul {
 #link11,
 #link1,
 #link4 {
-    width: 1320px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -133,7 +133,7 @@ h3 {
 }
 
 #menu {
-    width: 1320px;
+    width: 1200px;
     margin: 100px auto;
     padding-top: 100px;
 }
@@ -175,13 +175,13 @@ h3 {
 }
 
 .tab_content {
-    width: 1320px;
+    width: 1200px;
     margin: auto;
     align-items: center;
 }
 
 #tab3 {text-align: left;
-    width: 1320px;
+    width: 1200px;
     margin: auto; color: #fffff0;
 }
 #tab3 h2{line-height: 50%;}
@@ -205,7 +205,7 @@ h3 {
 }
 
 .bottomin{text-align: left;
-width:1320px
+width:1200px
     margin: 0 auto;
     color: rgb(255, 255, 255);
     padding: 20px;
