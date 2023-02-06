@@ -9,7 +9,7 @@
     padding: 200px 0px;
 }
 
-#link1{
+#link1{padding-top: 150px;
     width: 100%;
     margin: auto;
 }
@@ -80,9 +80,9 @@ background-repeat: no-repeat;
     padding-bottom:150px;
 }
     
-    #card{padding-top: 100px;}
+    #card{padding-top: 150px;}
 
-#banner{padding: 20px 0px;}
+#banner{padding-top: 150px;}
     .banner1{padding-top: 100px; 
         background-image: url(./images/banner1.jpg);
   background-size: 100%;
