@@ -75,16 +75,12 @@ width: 90%; margin: auto;
     padding-top: 150px;
 }
 
-#card{
+.{
     width: calc(100% - 50px);
     margin: auto;
     padding-top: 150px;
     padding-bottom:150px;
 }
-
-#banner{width: calc(100% - 50px); text-align: center;}
-    
-    #banner img{width: calc(100% - 50px); text-align: center;}
     
 #footer{
 
