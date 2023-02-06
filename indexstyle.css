@@ -81,8 +81,9 @@
     
     #card{padding-top: 100px;}
     #banner{padding-top: 100px; 
-        background-image url="./images/banner1.jpg"
-backgroung-repeat: none; backgroung-width: cover;
+        background-image: url(.images/banner1.jpg);
+  background-size: 90%;
+backgroung-repeat: none;
 }
     
     
