@@ -11,25 +11,25 @@
 
 #link11 img {width: 80%;}
 
-.sangse {
+#link1 {
     width: 100%;
     margin: auto;
 }
 
-.sangse h3 {text-align: center; color: #f62f1a;}
+#link1 h3 {text-align: center; color: #f62f1a;}
 
-.sangse ul {
+#link1 ul {
     width: 90%;
     margin: auto;
     display: flex;
 }
 
-.sangse ul li {padding: 10px 10px 5px 10px;}
+#link1 ul li {padding: 10px 10px 5px 10px;}
 
 
 
 /*자세히보기후버*/
-.sangse ul li {
+#link1 ul li {
     overflow: hidden;
     position: relative;
     /*w_box포지션의 기준*/
@@ -50,7 +50,7 @@
 }
 
 
-.sangse ul li:hover .w_box {
+#link1 ul li:hover .w_box {
     top: 0;
     transition: all 0.5s;
 }
