@@ -90,9 +90,9 @@ h3 {
     display: flex;
 }
     
-    .tabs ul {display: flex;}
+    .tabs ul {width: 90%; display: flex;}
 
-.tabs li {color: #f62f1a;
+.tabs ul li {color: #f62f1a;
     padding: 10px 15px;
     }
 
