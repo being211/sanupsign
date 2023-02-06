@@ -84,6 +84,8 @@ width: 90%; margin: auto;
 
 #banner{width: calc(100% - 50px);}
     
+    #banner img{width: calc(100% - 50px);}
+    
 #footer{
 
     margin: 0 auto;
