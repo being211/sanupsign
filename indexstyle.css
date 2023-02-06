@@ -10,14 +10,14 @@
 }
 
 .sangse {
-    width: 1200px;
+    width: 80%;
     margin: auto;
 }
 
 .sangse h3{text-align: center; color: #f62f1a;}
 
 .sangse ul {
-    width: 1200px;
+    width: 80%;
     margin: auto;
     display: flex;
 }
@@ -62,7 +62,7 @@
 #link11,
 #link1,
 #link4 {
-    width: 1200px;
+    width: 80%;
     margin: auto;
 }
 
@@ -90,7 +90,7 @@ h3 {
 }
 
 #menu {
-    width: 1200px;
+    width: 80%;
     margin: 100px auto;
     padding-top: 100px;
 }
@@ -132,20 +132,20 @@ h3 {
 }
 
 .tab_content {
-    width: 1200px;
+    width: 80%;
     margin: auto;
     align-items: center;
 }
 
 #tab3 {text-align: left;
-    width: 1200px;
+    width: 80%;
     margin: auto; color: #fffff0;
 }
 #tab3 h2{line-height: 50%;}
 #tab3 h4{padding-bottom: 30px;}
 
 #tab3 p img {
-    width: 80%;
+    width: 100%;
 }
 
 .mock2 {
@@ -162,5 +162,5 @@ h3 {
     font-weight: 300;
     color: #bdbdbd;
         text-align:left;
-       
+       width:100%;
 }
