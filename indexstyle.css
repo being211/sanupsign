@@ -1,39 +1,39 @@
 @charset "utf-8";
 
-#best_item ul li:hover .w_box {
+#best_item ul li:hover .w_box{
     top: 0;
     transition: all 1s;
 }
 
-#link11 {width: 100%;
+#link11{width: 100%;
     padding: 200px 0px;
 }
 
-#link1 {
+#link1{
     width: 100%;
     margin: auto;
 }
 
-#link1 h3 {text-align: center; color: #f62f1a;}
+#link1 h3{text-align: center; color: #f62f1a;}
 
-#link1 ul {
+#link1 ul{
     width: 90%;
     margin: auto;
     display: flex;
 }
 
-#link1 ul li {padding: 10px 10px 5px 10px;}
+#link1 ul li{padding: 10px 10px 5px 10px;}
 
 
 
 /*자세히보기후버*/
-#link1 ul li {
+#link1 ul li{
     overflow: hidden;
     position: relative;
     /*w_box포지션의 기준*/
 }
 
-.w_box {
+.w_box{
     background-color: rgba(43, 42, 42, 0.5);
     position: absolute;
     top: 300px;
@@ -48,7 +48,7 @@
 }
 
 
-#link1 ul li:hover .w_box {
+#link1 ul li:hover .w_box{
     top: 0;
     transition: all 0.5s;
 }
@@ -59,20 +59,20 @@
 
 
 
-#link11 {
+#link11{
     width: 80%;
     margin: auto;
 }
 
-#link11 img {
+#link11 img{
 width: 80%; margin: auto;
 
-h3 {
+h3{
     text-align: center;
     padding-bottom: 20px;
 }
 
-.pagead {
+.pagead{
     width: 100%;
     margin: auto;
     display: flex;
@@ -80,42 +80,42 @@ h3 {
     padding-top: 150px;
 }
 
-#menu {
+#menu{
     width: 100%;
     margin: auto;
     padding-top: 150px;
 }
     
-    .tabs ul {display: flex;}
+    .tabs ul{display: flex;}
 
-.tabs ul li {color: #f62f1a;
+.tabs ul li{color: #f62f1a;
     padding: 10px 15px;
     }
 
-.tabs li.active {color: #6b0303;
+.tabs li.active{color: #6b0303;
     border-bottom: 3px solid #000;
     font-weight: bold;
 }
 
-.tab_content {
+.tab_content{
     background-color: rgb(0, 0, 0);
    
 }
 
-#tab1 {
+#tab1{
     display: flex;
     padding-bottom: 300px;
 }
 
-#tab2 {width: 90%;}
+#tab2{width: 90%;}
 
-#tab2 img {width: 50%;}
+#tab2 img{width: 50%;}
 
-.tab_content h1 {
+.tab_content h1{
     padding-bottom: 20px;
 }
 
-#footer {
+#footer{
 
     margin: 0 auto;
     margin-top: 100px;
@@ -126,5 +126,5 @@ h3 {
        width: 100%;
 }
 
-.footerinner {width: 80%; padding: 50px 30px;
+.footerinner{width: 80%; padding: 50px 30px;
     }
