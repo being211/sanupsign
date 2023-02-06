@@ -63,7 +63,7 @@
     width: calc(100% - 50px);
     margin: auto;
     background-image: url(./images/brandstory1.jpg);
-  background-size: 90%;
+  background-size: 100%;
 background-repeat: no-repeat;
 }
 
@@ -85,7 +85,7 @@ background-repeat: no-repeat;
     #card{padding-top: 100px;}
     #banner{padding-top: 100px; 
         background-image: url(./images/banner1.jpg);
-  background-size: 90%;
+  background-size: 100%;
 background-repeat: no-repeat;
 width: 90%;}
     
