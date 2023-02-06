@@ -81,7 +81,7 @@ width: 90%; margin: auto;
     padding-top: 150px;
     padding-bottom:150px;
 }
-    #banner img{width: calc(100% - 50px)}
+    #banner img{width: calc(100% - 50px);}
     
     #card{padding-top: 100px;}
     #banner{padding-top: 100px;}
