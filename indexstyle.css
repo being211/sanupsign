@@ -80,9 +80,13 @@ background-repeat: no-repeat;
     padding-bottom:150px;
 }
     
-    #card{padding-top: 150px;}
+    #card{padding-top: 150px;
+color: #f62f1a;
+}
 
-#banner{padding-top: 200px;}
+#banner{padding-top: 200px;
+color: #f62f1a;
+}
     .banner1{padding-top: 50px; 
         background-image: url(./images/banner1.jpg);
   background-size: 100%;
@@ -118,5 +122,5 @@ width: 90%; margin: auto;}
        width: 100%;
 }
 
-.footerinner{width:calc(100% - 50px); padding: 50px 30px;
+.footerinner{width:calc(100% - 50px);
     }
