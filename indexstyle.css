@@ -17,7 +17,7 @@
 .sangse h3{text-align: center; color: #f62f1a;}
 
 .sangse ul {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
@@ -128,8 +128,6 @@ h3 {
     left: 50px;
 }
 
-.card2 {}
-
 .tab_content h1 {
     padding-bottom: 20px;
 }
@@ -149,10 +147,6 @@ h3 {
 
 #tab3 p img {
     width: 100%;
-}
-
-.mock2 {
-    width: 300px;
 }
 
 
