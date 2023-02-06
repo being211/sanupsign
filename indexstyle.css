@@ -17,7 +17,7 @@
 #link1 h3{text-align: center; color: #f62f1a;}
 
 #link1 ul{
-    width: 90%;
+    width: calc(100% - 50px);
     margin: auto;
     display: flex;
 }
@@ -60,12 +60,9 @@
 
 
 #link11{
-    width: 100%;
+    width: calc(100% - 50px);
     margin: auto;
 }
-
-#link11 img{
-width: 90%; margin: auto;
 
 .pagead{
     width: 100%;
