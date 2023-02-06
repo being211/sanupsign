@@ -19,7 +19,7 @@
 .sangse h3 {text-align: center; color: #f62f1a;}
 
 .sangse ul {
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -67,7 +67,7 @@
 }
 
 #link1 {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -152,5 +152,5 @@ h3 {
        width:100%;
 }
 
-.footerinner{width:80%; padding: 50px 30px;
+.footerinner {width:80%; padding: 50px 30px;
     }
