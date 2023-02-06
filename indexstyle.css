@@ -10,14 +10,14 @@
 }
 
 .sangse {
-    width: 1080px;
+    width: 1200px;
     margin: auto;
 }
 
 .sangse h3{text-align: center; color: #f62f1a;}
 
 .sangse ul {
-    width: 1080px;
+    width: 1200px;
     margin: auto;
     display: flex;
 }
@@ -62,7 +62,7 @@
 #link11,
 #link1,
 #link4 {
-    width: 1080px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -90,7 +90,7 @@ h3 {
 }
 
 #menu {
-    width: 1080px;
+    width: 1200px;
     margin: 100px auto;
     padding-top: 100px;
 }
@@ -132,13 +132,13 @@ h3 {
 }
 
 .tab_content {
-    width: 1080px;
+    width: 1200px;
     margin: auto;
     align-items: center;
 }
 
 #tab3 {text-align: left;
-    width: 1080px;
+    width: 1200px;
     margin: auto; color: #fffff0;
 }
 #tab3 h2{line-height: 50%;}
