@@ -98,7 +98,7 @@ h3 {
     padding-top: 100px;
 }
 
-.tabs {
+.tabs {width: 90%;
     display: flex;
 }
 
@@ -122,6 +122,8 @@ h3 {
     padding-bottom: 300px;
 }
 
+#tab2 {width: 80%;}
+
 .card1 {
     position: absolute;
     top: 200px;
@@ -137,14 +139,6 @@ h3 {
     margin: auto;
     align-items: center;
 }
-
-#tab3 {text-align: left;
-    width: 80%;
-    margin: auto; color: #fffff0;
-}
-#tab3 h2{line-height: 50%;}
-#tab3 h4{padding-bottom: 30px;}
-
 
 #footer {
 
