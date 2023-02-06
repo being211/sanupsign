@@ -75,7 +75,7 @@ width: 90%; margin: auto;
     padding-top: 150px;
 }
 
-.{
+#{
     width: calc(100% - 50px);
     margin: auto;
     padding-top: 150px;
