@@ -5,7 +5,7 @@
     transition: all 1s;
 }
 
-#link11 {
+#link11 {width: 100%;
     padding: 200px 0px;
 }
 
@@ -59,14 +59,18 @@
 
 
 
-#link11,
+#link11{
+    width: 100%;
+    margin: auto;
+}
+
 #link1{
     width: 100%;
     margin: auto;
 }
 
 #link11 img {
-    width: 100%;
+    width: 80%;
 }
 
 #link1 {
