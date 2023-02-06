@@ -78,7 +78,7 @@
 #link1 {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    padding-top: 150px;
 }
 
 h3 {
@@ -97,7 +97,7 @@ h3 {
 #menu {margin-top: 100px;
     width: 100%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .tabs {width: 90%;
