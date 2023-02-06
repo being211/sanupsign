@@ -66,20 +66,8 @@
     margin: auto;
 }
 
-#link1 {
-    width: 100%;
-    margin: auto;
-}
-
 #link11 img {
-    width: 100%;
-}
-
-#link1 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 150px;
-}
+width: 80%; margin: auto;
 
 h3 {
     text-align: center;
