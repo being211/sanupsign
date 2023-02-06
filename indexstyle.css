@@ -157,9 +157,9 @@ h3 {
 
     margin: 0 auto;
     margin-top: 100px;
-    background-color: rgb(31, 31, 31);
+    border-top:2px solid rgb(31, 31, 31);
     font-weight: 300;
-    color:#000060;
+    color:rgb(31, 31, 31)
         padding:30px;
        
 }
