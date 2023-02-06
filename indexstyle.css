@@ -113,7 +113,7 @@ h3 {
 
 .tab_content {
     background-color: rgb(0, 0, 0);
-    padding: 50px;
+   
 }
 
 #tab1 {
@@ -144,10 +144,6 @@ h3 {
 }
 #tab3 h2{line-height: 50%;}
 #tab3 h4{padding-bottom: 30px;}
-
-#tab3 p img {
-    width: 100%;
-}
 
 
 #footer {
