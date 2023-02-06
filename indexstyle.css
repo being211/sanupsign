@@ -92,7 +92,6 @@ color: #f62f1a; padding-bottom: 100px;
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;
-height: 100%;
 }
 
 .banner2{padding-top: 50px; 
@@ -100,7 +99,6 @@ height: 100%;
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;
-height: 100%;
 }
 
 .banner3{padding-top: 50px; 
@@ -108,14 +106,13 @@ height: 100%;
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;
-height: 100%;
 }
 
 .banner4{padding-top: 50px; 
         background-image: url(./images/banner4.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
-width: 90%; margin: auto; height: 100%;}
+width: 90%; margin: auto;}
     
     
 #footer{
@@ -128,5 +125,5 @@ width: 90%; margin: auto; height: 100%;}
        width: 100%;
 }
 
-.footerinner{width:calc(100% - 50px); padding: 30px;
+.footerinner{width: calc(100% - 50px); padding: 30px;
     }
