@@ -60,17 +60,12 @@
 
 
 #link11{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 #link11 img{
-width: 80%; margin: auto;
-
-h3{
-    text-align: center;
-    padding-bottom: 20px;
-}
+width: 90%; margin: auto;
 
 .pagead{
     width: 100%;
@@ -103,7 +98,7 @@ h3{
    
 }
 
-#tab1{
+#tab1{width: 90%;
     display: flex;
     padding-bottom: 300px;
 }
@@ -111,10 +106,6 @@ h3{
 #tab2{width: 90%;}
 
 #tab2 img{width: 50%;}
-
-.tab_content h1{
-    padding-bottom: 20px;
-}
 
 #footer{
 
