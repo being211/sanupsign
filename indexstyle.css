@@ -82,9 +82,9 @@ width: 90%; margin: auto;
     padding-bottom:150px;
 }
 
-#banner{width: calc(100% - 50px);}
+#banner{width: calc(100% - 50px); text-align: center;}
     
-    #banner img{width: calc(100% - 50px);}
+    #banner img{width: calc(100% - 50px); text-align: center;}
     
 #footer{
 
