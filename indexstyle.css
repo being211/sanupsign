@@ -10,7 +10,7 @@
 }
 
 .sangse {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -60,9 +60,8 @@
 
 
 #link11,
-#link1,
-#link4 {
-    width: 80%;
+#link1{
+    width: 100%;
     margin: auto;
 }
 
@@ -90,8 +89,8 @@ h3 {
 }
 
 #menu {
-    width: 80%;
-    margin: 100px auto;
+    width: 100%;
+    margin: auto;
     padding-top: 100px;
 }
 
