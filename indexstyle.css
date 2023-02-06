@@ -75,38 +75,15 @@ width: 90%; margin: auto;
     padding-top: 150px;
 }
 
-#menu{
-    width: 100%;
+#card{
+    width: calc(100% - 50px);
     margin: auto;
     padding-top: 150px;
     padding-bottom:150px;
 }
+
+#banner{width: calc(100% - 50px);}
     
-    .tabs ul{display: flex;}
-
-.tabs ul li{color: #f62f1a;
-    padding: 10px 15px;
-    }
-
-.tabs li.active{color: #6b0303;
-    border-bottom: 3px solid #000;
-    font-weight: bold;
-}
-
-.tab_content{
-    background-color: rgb(0, 0, 0);
-   
-}
-
-#tab1{width: 100%;
-    display: flex;
-    padding-bottom: 300px;
-}
-
-#tab2{width: 100%;}
-
-#tab2 img{width:calc(100% - 50px);}
-
 #footer{
 
     margin: 0 auto;
