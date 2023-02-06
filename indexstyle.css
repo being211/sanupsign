@@ -159,8 +159,9 @@ h3 {
     margin-top: 100px;
     background-color: rgb(31, 31, 31);
     font-weight: 300;
+    color:#000080;
         padding:30px;
-        text-align: left;
+       
 }
 
 @media screen and (max-width:640px) {
