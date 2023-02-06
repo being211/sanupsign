@@ -9,7 +9,7 @@
     padding: 200px 0px;
 }
 
-#link1{padding-top: 150px;
+#link1{padding-top: 200px;
     width: 100%;
     margin: auto;
 }
@@ -58,7 +58,7 @@
 
 
 
-#link11{
+#link11{padding-top: 200px;
     margin: auto;
     background-image: url(./images/brandstory1.jpg);
   background-size: 100%;
@@ -82,26 +82,26 @@ background-repeat: no-repeat;
     
     #card{padding-top: 150px;}
 
-#banner{padding-top: 150px;}
-    .banner1{padding-top: 100px; 
+#banner{padding-top: 200px;}
+    .banner1{padding-top: 50px; 
         background-image: url(./images/banner1.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;}
 
-.banner2{padding-top: 100px; 
+.banner2{padding-top: 50px; 
         background-image: url(./images/banner2.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;}
 
-.banner3{padding-top: 100px; 
+.banner3{padding-top: 50px; 
         background-image: url(./images/banner3.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;}
 
-.banner4{padding-top: 100px; 
+.banner4{padding-top: 50px; 
         background-image: url(./images/banner4.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
