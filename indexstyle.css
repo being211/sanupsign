@@ -62,6 +62,9 @@
 #link11{
     width: calc(100% - 50px);
     margin: auto;
+    background-image: url(./images/brandstory1.jpg);
+  background-size: 90%;
+backgroung-repeat: none;
 }
 
 .pagead{
