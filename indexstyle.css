@@ -98,14 +98,14 @@ width: 90%; margin: auto;
    
 }
 
-#tab1{width: 90%;
+#tab1{width: 100%;
     display: flex;
     padding-bottom: 300px;
 }
 
-#tab2{width: 90%;}
+#tab2{width: 100%;}
 
-#tab2 img{width: 50%;}
+#tab2 img{width:calc(100% - 50px);}
 
 #footer{
 
@@ -117,5 +117,5 @@ width: 90%; margin: auto;
        width: 100%;
 }
 
-.footerinner{width: 80%; padding: 50px 30px;
+.footerinner{width:calc(100% - 50px); padding: 50px 30px;
     }
