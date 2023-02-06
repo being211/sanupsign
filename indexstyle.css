@@ -85,12 +85,8 @@ h3 {
     margin: auto;
     padding-top: 150px;
 }
-
-.tabs {width: 90%;
-    display: flex;
-}
     
-    .tabs ul {width: 90%; display: flex;}
+    .tabs ul {display: flex;}
 
 .tabs ul li {color: #f62f1a;
     padding: 10px 15px;
