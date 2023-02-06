@@ -115,7 +115,7 @@ background-repeat: no-repeat;
 width: 90%; margin: auto;}
     
     
-#footer{
+#footer{width: 100%;
 
     margin: 0 auto;
     border-top: 2px solid #bdbdbd;
@@ -125,5 +125,5 @@ width: 90%; margin: auto;}
        width: 100%;
 }
 
-.footerinner{width: calc(100% - 50px); padding: 30px;
+.footerinner{padding: 30px;
     }
