@@ -17,7 +17,6 @@
 #link1 h3{text-align: center; color: #f62f1a;}
 
 #link1 ul{
-    width: calc(100% - 50px);
     margin: auto;
     display: flex;
 }
@@ -60,7 +59,6 @@
 
 
 #link11{
-    width: calc(100% - 50px);
     margin: auto;
     background-image: url(./images/brandstory1.jpg);
   background-size: 100%;
