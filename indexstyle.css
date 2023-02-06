@@ -213,3 +213,9 @@ width:1200px
     line-height: 150%;
     background-color: rgb(31, 31, 31);
     font-weight: 300;}
+
+
+@media screen and (max-width:640px) {
+    body {width:100%;
+    }
+  }
