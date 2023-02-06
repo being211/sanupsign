@@ -157,9 +157,10 @@ h3 {
 
     margin: 0 auto;
     margin-top: 100px;
-    border-top:2px solid #00f;
+    padding-top: 50px;
+    border-top: 2px solid #bdbdbd;
     font-weight: 300;
-    color:#00f;
+    color: #bdbdbd;
         text-align:left;
        
 }
