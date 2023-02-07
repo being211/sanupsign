@@ -146,6 +146,55 @@ margin-right: 20px; padding-top: 100px;
 #brand1{padding-top: 200px; margin: auto;
 width: 100%; max-width: 920px;}
 
+#link1{padding-top: 200px; margin: auto;
+width: 100%; max-width: 1000px; 
+text-align: center; padding: 20px;}
+
+#link1 ul li:hover .w_box{
+    top: 0;
+    transition: all 1s;
+}
+
+#link1 ul{width: 100%; max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+#link1 ul li{padding: 10px 10px 5px 10px; text-align: center;}
+
+
+
+/*자세히보기후버*/
+#link1 ul li{
+    overflow: hidden;
+    position: relative;
+    /*w_box포지션의 기준*/
+}
+
+.w_box{
+    background-color: rgba(43, 42, 42, 0.5);
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fffff0;
+}
+
+
+#link1 ul li:hover .w_box{
+    top: 0;
+    transition: all 0.5s;
+}
+
+
+/*자세히보기 후버 끝*/
+
+
 #brand1 img{margin: auto;
             width: 100%; max-width: 920px;}
 
@@ -189,7 +238,7 @@ margin: auto; border-top: 2px solid #fffff0;}
                 <li>
                     <a href="#tab">디자인</a>
                     <ul class="sub">
-                        <li><a href="#det">상세페이지</a></li>
+                        <li><a href="#link1">상세페이지</a></li>
                         <li><a href="#card">명함</a></li>
 <li><a href="#banner">배너</a></li>
                     </ul>
@@ -209,6 +258,51 @@ margin: auto; border-top: 2px solid #fffff0;}
 <div id="brand1">
 <img src="./images/brandstory1.jpg">
 </div>
+
+
+
+<div id="link1">
+      
+    상세페이지
+    <ul>
+        <li><a href="./desun.html"><img src="./images/sun.jpg">
+        <div class="w_box">
+       
+            <h2>자세히 보기</h2>
+        </div>
+<!--w_box-->
+        </a></li>
+        
+        <li><a href="./deinte.html"><img src="./images/inte.jpg">
+        <div class="w_box">
+            
+            <h2>자세히 보기</h2>
+        </div><!--w_box-->
+        </a></li>
+        <li><a href="./decos.html"><img src="./images/cos.jpg">
+        <div class="w_box">
+            
+            <h2>자세히 보기</h2>
+        </div><!--w_box-->
+        </a></li>
+    </ul>
+    <ul>
+        <li><a href="./detable.html"><img src="./images/table.jpg">
+        <div class="w_box">
+            
+            <h2>자세히 보기</h2>
+        </div><!--w_box-->
+        </a></li >
+        <li class="ye"><a href="./desofa.html"><img src="./images/sofa.jpg">
+        <div class="w_box">
+            
+            <h2>자세히 보기</h2>
+        </div><!--w_box-->
+        </a></li>
+    </ul>
+</div>
+
+
 
 <div id="card">
 <p>명함</p>
