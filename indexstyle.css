@@ -6,7 +6,6 @@
 }
 
 #link1{padding-top: 50%;
-    width: 100%;
     margin: auto;
 }
 
@@ -60,7 +59,6 @@ background-repeat: no-repeat;
 }
 
 .pagead{
-    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -87,5 +85,5 @@ background-repeat: no-repeat;
       
 }
 
-.footerinner{padding: 30px;
+.footerinner{padding: 30px; margin: 0 auto;
     }
