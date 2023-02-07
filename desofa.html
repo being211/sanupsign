@@ -115,6 +115,34 @@ max-width: 1920px;
       
 .logo {padding-left: 5px;}
 
+@keyframes up_and_down {
+            from {
+                transform: translateY(50px);
+            }
+
+            to {
+                transform: translateY(70px);
+            }}
+
+
+
+        .cup {width: 45%; max-width: 600px;
+            animation: up_and_down 1s linear infinite alternate; padding-top: 100px;
+        }
+
+        .pcup {width: 45%; max-width: 600px;
+            animation: up_and_down 1s linear infinite alternate; 
+margin-right: 20px; padding-top: 100px;
+        }
+
+        #pagead {width: 100%; max-width: 1920px;
+            margin: auto; position: relative; margin-top: 100px;
+       display: flex; justfy-contents: center; }
+
+
+
+
+
 #brand1{padding-top: 200px; margin: auto;
 width: 100%; max-width: 920px;}
 
@@ -171,6 +199,12 @@ margin: auto; border-top: 2px solid #fffff0;}
         </div><!--header_inner-->
     </div><!--header-->
 <a href="https://github.com/Joungkyun/JSBoard.git"></a>
+
+
+<div id="pagead">
+<img src="./images/pcup.png" alt="상품1" class="cup">
+        <img src="./images/01종이컵글.png" alt="상품" class="pcup">
+</div>
 
 <div id="brand1">
 <img src="./images/brandstory1.jpg">
