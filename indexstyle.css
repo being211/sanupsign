@@ -9,7 +9,7 @@
     margin: auto;
 }
 
-#link1 ul{width: 100%;
+#link1 ul{width: calc(100%-10px);
     margin: auto;
     display: flex;
 }
