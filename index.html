@@ -347,23 +347,7 @@ margin-right: 100px; margin-left: -30px; width: 100px; padding-top: 100px;
                 전자우편은 시간에 상관없이 being211@yahoo.com으로 보내주시면 답이 있을거예요.
        </div></div>
 
-<script>
 
-$(function(){
-  start();
-  var imgs = 2;
-  var now = 0;
-  function start(){
-    $("#slide li").eq(0).siblings().fadeOut();
-    setInterval(function(){slide();},2000)
-  };
-  function slide(){
-    now = now==imgs?0:now+=1;
-    $("#slide li").eq(now-1).fadeOut();
-    $("#slide li").eq(now).fadeIn();
-  };
-});
-</script>
  
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/slide.js"></script>
