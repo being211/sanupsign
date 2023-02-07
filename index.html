@@ -8,7 +8,8 @@
     <title>sanupdesign</title>
     <link rel="shortcut icon" type="image/x-icon" href="./images/plogo1.png" />
     <link rel="stylesheet" href="./indexstyle.css">
-    <style>
+  
+  <style>
         @charset "utf-8";
 
 /*나눔바른고딕*/
@@ -312,6 +313,21 @@ margin-right: 100px; margin-left: -30px; width: 100px; padding-top: 100px;
 
             </div>
 
+
+
+<div class="lecs3">
+    <p>
+        배너광고</p></div>
+        <div class="lecs3con">
+<ul class="ban">
+<li><img src="./images/banner1.jpg" class="img1"></li>
+<li><img src="./images/banner2.jpg" class="img2"></li>
+<li><img src="./images/banner3.jpg" class="img3"></li>
+<li><img src="./images/banner4.jpg" class="img4"></li>
+</ul>
+</div></div>
+
+
             
       
         <div id="footer">
@@ -323,5 +339,26 @@ margin-right: 100px; margin-left: -30px; width: 100px; padding-top: 100px;
            
                 전자우편은 시간에 상관없이 being211@yahoo.com으로 보내주시면 답이 있을거예요.
        </div></div>
+
+
+
+<script>
+        $(function () {
+            start();
+            var imgs = 3;
+            var now = 0;
+            function start() {
+                $("#slide li").eq(0).siblings().fadeOut();
+                setInterval(function () { slide(); }, 1000)
+            };
+            function slide() {
+                now = now == imgs ? 0 : now += 1;
+                $("#slide li").eq(now - 1).fadeOut();
+                $("#slide li").eq(now).fadeIn();
+            };
+        });</script>
+ 
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slide.js"></script>
    
 </body>
