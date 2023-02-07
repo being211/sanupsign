@@ -5,7 +5,7 @@
     transition: all 1s;
 }
 
-#link1{padding-top: 50%;
+#link1{padding-top: 30%;
     margin: auto;
 }
 
@@ -51,7 +51,7 @@
 
 
 
-#link11{padding-top: 150%;
+#link11{padding-top: 200%;
     margin: auto;
     background-image: url(./images/brandstory1.jpg);
   background-size: 100%;
@@ -66,11 +66,11 @@ background-repeat: no-repeat;
 }
 
     
-    #card{margin-top: 100%;
+    #card{margin-top: 150%;
  padding: 30px;
 }
 
-#banner1{padding-top: 50%; padding: 20px 0px;
+#banner1{padding-top: 70%; padding: 20px 0px;
  padding-bottom: 20%;
 }
 
