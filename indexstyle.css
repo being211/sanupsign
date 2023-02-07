@@ -67,7 +67,7 @@ background-repeat: no-repeat;
 
     
     #card{margin-top: 100%;
- padding: 30;
+ padding: 30px;
 }
 
 #banner1{padding-top: 50%; padding: 20px 0px;
@@ -75,7 +75,7 @@ background-repeat: no-repeat;
 }
 
 
-#footer{width: 100%;
+#footer{
 
     margin: 0 auto;
     border-top: 2px solid #bdbdbd;
