@@ -23,15 +23,17 @@
             list-style: none;
         }
 
+img , iframe, video{vertical-align: middle;}
+
         body {
             font-family: 'NanumBarunGothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 24px;
+            line-height: 34px;
             background-color: #000;
+color: fffff0;
         }
 
 
-        /*1. 주된 메뉴를 먼저 만들어 '자식요소선택자'를 활용해 스타일을 꾸며준다!*/
         #header {
             background-color: rgb(0, 0, 0);
             position: fixed;
@@ -43,12 +45,80 @@
         }
 
         .header_inner {
-            width: 1320px;
+            width: 90%;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+
+
+
+.header_inner h1{margin-top: 20px;}
+
+        #gnb {
+            display: flex;
+        }
+
+        #gnb>li {
+            padding: 20px 40px;
+          
+            color: #fffff0;
+        }
+
+        /*2. 구조를 참조하여, 서브메뉴를 올바른 위치에 넣어 준다.*/
+        /*3. 서브 전체를 포지션 absolute시켜서, 다른 태그 위에 올라 올 수 있도록 한다. 여기서 포지션의 기준은! #gnb>li에 잡는다.*/
+        #gnb>li {
+            position: relative;
+        }
+
+        .sub {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            /*top을 100%로 잡아주면, 기준이 된 li의 높이 바로 밑에 위치하게 된다.*/
+            z-index: 10;
+            width: 100%;
+            /*포지션 absolute를 주어 한줄전체 차지하는 속성이 사라졌으므로, 알맞은 width를 지정해 준다.*/
+        }
+
+        /*4. 서브 완료 시 모습을 보고, li등에 나머지 스타일을 준다. 여기서 주된메뉴에 font-weight나 혹은 font-size, color등을 썼다면 꼭 덮어 쓸 수 있도록 설정한다. 글씨관련된 속성만 넘어온 이유는 해당 속성들이 상속되기 때문이다.*/
+        .sub>li>a:hover {
+            background-color: rgb(110, 8, 17);
+            transition: all 0.5s;
+        }
+
+        .sub>li>a {
+            display: block;
+            font-weight: normal;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 0;
+
+            background-color: rgb(0, 0, 0);
+        }
+
+        /*5. css로 서브의 모양을 다 만들었다면, 처음에 들어올때는 안보이게 만든다.*/
+        .sub {
+            display: none;
+        }
+
+        /*6. #gnb>li에 호버했을때, 그 밑에 있는 .sub가 보이게 한다.
+    여기서, 5번 과정에서 sub를 안보이게 만든 속성을 전부 보이게 만들수 있는 방법으로 바꾼다.
+    */
+        #gnb>li:hover>.sub {
+            display: block;
+            /*.sub의 태그인 ul은 원래 block속성이므로 원래 속성으로 바꿔주면 다시 보이게 된다.*/
+        }
+
+        .qna h2 {
+            color: darkred;
+            font-family: '맑은고딕'
+                , 'Arial Narrow', Arial, sans-serif;
+        }
+.logo {padding-left: 5px;}
+
+
 
 
 
@@ -70,10 +140,31 @@
     <div id="header">
         <div class="header_inner">
             <h1 class="logo">
-                <a href="./index.html"><img src="./images/plogo1.png"></a>
+                <a href="#"><img src="./images/plogo1.png"></a>
             </h1>
+            <ul id="gnb">
+                <li>
+                    <a href="#link11">브랜드이야기</a>
+                    <!--서브메뉴의 위치는 해당 li안이지만 a태그와 형제로 들어가게끔 넣는다.-->
+
+                </li>
+                <li>
+                    <a href="#tab">디자인들</a>
+                    <ul class="sub">
+                        <li><a href="#link1">상세페이지</a></li>
+                        <li><a href="#card">명함</a></li>
+<li><a href="#banner1">배너</a></li>
+                    </ul>
+
+                </li>
+            </ul>
         </div><!--header_inner-->
     </div><!--header-->
+<a href="https://github.com/Joungkyun/JSBoard.git"></a>
+
+
+
+
     <div id="de">
         <img src="./images/desofapage.jpg">
     </div>
