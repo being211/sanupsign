@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+ <title>Document</title>
     <style>
         @charset "utf-8";
 
@@ -121,7 +123,7 @@ max-width: 1920px;
             }
 
             to {
-                transform: translateY(70px);
+                transform: translateY(80px);
             }}
 
 
@@ -129,7 +131,14 @@ max-width: 1920px;
             margin: auto; position: relative; margin-top: 100px;
        display: flex; justfy-contents: center; }
 
-#pagead img{width: 40%; max-width: 600px;}
+.pcup{width: 200px; min-width: 400px;
+  animation: up_and_down2 1s 
+linear infinite alternate; padding-top: 150px;
+}
+.cupt{width: 170px; min-width: 400px;
+animation: up_and_down2 1s 
+linear infinite alternate; padding-top: 100px;
+}
 
 
 #brand1{padding-top: 200px; margin: auto;
@@ -187,18 +196,18 @@ text-align: center;}
 #brand1 img{margin: auto;
             width: 100%; max-width: 920px;}
 
-#banner{padding-top: 210px; margin: auto;
+#banner{padding-top: 200px; margin: auto;
 width: 100%; max-width: 800px; text-align: center; padding: 20px;}
 
 #banner img{margin: auto;
             width: 100%; max-width: 800px;}
 
 
-#card{padding-top: 210px; padding: 10px;
+#card{padding-top: 200px; padding: 10px;
 text-align: center; width: 100%; min-width: 400px;
 }
 
-#card img{width: 70%; max-width: 400px; padding: 10px;
+#card img{width: 70%; max-width: 400px;
 }
 
 #footer{width: 100%; max-width: 1920px;
@@ -239,8 +248,8 @@ margin: auto; border-top: 2px solid #fffff0;}
 
 
 <div id="pagead">
-<img src=".png" alt="상품1" class="cup">
-        <img src="./images/cupt.png" alt="상품" class="pcup">
+<img src="./images/pcup.png" alt="상품1" class="pcup">
+        <img src="./images/cupt.png" alt="상품" class="cupt">
 </div>
 
 <div id="brand1">
