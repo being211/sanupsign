@@ -111,7 +111,10 @@ width: 90%; margin: auto;
   background-size: 100%;
 background-repeat: no-repeat;
 width: 90%; margin: auto;}
-    
+
+
+#slide{margin: auto; overflow: hidden; position: relative;}
+#slide li{position: absolute; top: 0; left: 0; transition: all 1s;}
     
 #footer{width: 100%;
 
