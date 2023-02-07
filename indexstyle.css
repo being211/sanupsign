@@ -60,12 +60,14 @@
     width: 100%; max-width: 1000px;
 }
 
-.pagead{width: 100%; min-width: 1200px;
+.pagead{
     margin: auto;
     display: flex;
     justify-content: center;
     padding-top: 150px;
 }
+
+.pagead img{width: 100%; max-width: 200px; }
 
     
     #card{margin-top: 150%;
