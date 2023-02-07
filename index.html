@@ -1,46 +1,14 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sanupdesign</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./images/plogo1.png" />
-    <link rel="stylesheet" href="./indexstyle.css">
-  
-  <style>
+    <title>Document</title>
+    <style>
         @charset "utf-8";
 
-/*나눔바른고딕*/
-@font-face {
-    font-family: 'NanumBarunGothic';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
-    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'NanumBarunGothic';
-    font-style: normal;
-    font-weight: 700;
-    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
-    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: 'NanumBarunGothic';
-    font-style: normal;
-    font-weight: 300;
-    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
-    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
-}
-
-.nanumbarungothic * {
-    font-family: 'NanumBarunGothic', sans-serif;
-}
-        
         * {
             margin: 0;
             padding: 0;
@@ -57,38 +25,44 @@
 
 img , iframe, video{vertical-align: middle;}
 
-        body {background-color:#000;
-    font-family: 'NanumBarunGothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
-    font-size: 25px; width: 100%; max-width: 1920px;
-    line-height: 25px;
-            color: #fffff0;
-}
+        body {
+            font-family: 'NanumBarunGothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+            font-size: 20px;
+            line-height: 30px;
+            background-color: #000;
+color: #fffff0;
+        }
 
-        /*1. 주된 메뉴를 먼저 만들어 '자식요소선택자'를 활용해 스타일을 꾸며준다!*/
-        #header {width: 100%; max-width: 1920px;
+
+        #header {
             background-color: rgb(0, 0, 0);
             position: fixed;
             top: 0;
             left: 0;
             z-index: 100;
             align-items: center;
+            width: 100%; 
+max-width: 1920px;
         }
 
-        .header_inner {width: 100%;
+        .header_inner {
+            width: 90%;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
-    
+            align-items: center;
         }
 
-        .header_inner h1{margin-top: 20px;}
+
+
+.header_inner h1{margin-top: 20px;}
 
         #gnb {
             display: flex;
         }
 
         #gnb>li {
-            padding: 20px 40px;
+            padding: 20px 30px;
           
             color: #fffff0;
         }
@@ -138,90 +112,86 @@ img , iframe, video{vertical-align: middle;}
             /*.sub의 태그인 ul은 원래 block속성이므로 원래 속성으로 바꿔주면 다시 보이게 된다.*/
         }
 
-        .qna h2 {
-            color: darkred;
-            font-family: '맑은고딕'
-                , 'Arial Narrow', Arial, sans-serif;
-        }
+      
 .logo {padding-left: 5px;}
 
-
-        @keyframes up_and_down {
+@keyframes up_and_down {
             from {
-                transform: translateY(30px);
-            }
-
-            to {
                 transform: translateY(50px);
-            }}
-
-            @keyframes up_and_down1 {
-            from {
-                transform: translateY(-150);
             }
 
             to {
-                transform: translateY(-100px);
-            }}
-
-            @keyframes up_and_down2 {
-            from {
-                transform: translateY(-50px);
-            }
-
-            to {
-                transform: translateY(-20px);
+                transform: translateY(70px);
             }}
 
 
-        .cup {width: 200px;
-            animation: up_and_down2 0.8s linear infinite alternate; padding-top: 100px;
+
+        .cup {width: 45%; max-width: 600px;
+            animation: up_and_down 1s linear infinite alternate; padding-top: 100px;
         }
 
-        .pcup {
-            animation: up_and_down 1.5s linear infinite alternate; 
-margin-right: 100px; margin-left: -30px; width: 100px; padding-top: 100px;
+        .pcup {width: 45%; max-width: 600px;
+            animation: up_and_down 1s linear infinite alternate; 
+margin-right: 20px; padding-top: 100px;
         }
 
-         .sale1 {
-            animation: up_and_down1 1s linear infinite alternate; width: 150px;
-        margin-left: 10px; margin-top: 150px;}
-
-        .sale3 {
-            animation: up_and_down 1s linear infinite alternate; width: 150px;
-        margin-left: 20px; }
-
-        #pagead {
-            margin: auto; position: relative; margin-top: 50px;
-        }
+        #pagead {width: 100%; max-width: 1920px;
+            margin: auto; position: relative; margin-top: 100px;
+       display: flex; justfy-contents: center; }
 
 
 
 
+
+#brand1{padding-top: 200px; margin: auto;
+width: 100%; max-width: 920px;}
+
+#brand1 img{margin: auto;
+            width: 100%; max-width: 920px;}
+
+#banner{padding-top: 200px; margin: auto;
+width: 100%; max-width: 800px; text-align: center; padding: 20px;}
+
+#banner img{margin: auto;
+            width: 100%; max-width: 800px;}
+
+
+#card{padding-top: 200px; padding: 20px;
+text-align: center;
+}
+
+#card img{ padding: 20px;
+text-align: center; width: 100%; max-width: 400px;
+}
+
+#footer{width: 100%; max-width: 1920px;
+margin: auto; border-top: 2px solid #fffff0;}
+.footerinner{width: 80%; padding: 20px;}
 
 
     </style>
 </head>
 
+
 <body>
-   
+
     <div id="header">
         <div class="header_inner">
             <h1 class="logo">
-                <a href="#"><img src="./images/plogo1.png"></a>
+                <a href="https://being211.github.io/sanupsign/"><img src="./images/plogo1.png"></a>
             </h1>
             <ul id="gnb">
                 <li>
-                    <a href="#link11">브랜드이야기</a>
+                    <a href="#brand1">브랜드</a>
                     <!--서브메뉴의 위치는 해당 li안이지만 a태그와 형제로 들어가게끔 넣는다.-->
 
                 </li>
                 <li>
-                    <a href="#tab">디자인들</a>
+                    <a href="#tab">디자인</a>
                     <ul class="sub">
-                        <li><a href="#link1">상세페이지</a></li>
+                        <li><a href="#det">상세페이지</a></li>
                         <li><a href="#card">명함</a></li>
-<li><a href="#banner1">배너</a></li>
+<li><a href="#banner">배너</a></li>
                     </ul>
 
                 </li>
@@ -229,97 +199,38 @@ margin-right: 100px; margin-left: -30px; width: 100px; padding-top: 100px;
         </div><!--header_inner-->
     </div><!--header-->
 <a href="https://github.com/Joungkyun/JSBoard.git"></a>
-    
 
 
-    <div id="pagead">
-        <img src="./images/pcup.png" alt="상품1" class="cup">
-        <img src="./images/01종이컵글.png" alt="상품" class="pcup">
-        <img src="./images/frontsale1.png" alt="상품" class="sale1">
-        <img src="./images/frontsale3.png" alt="상품" class="sale3">
+<div id="pagead">
+<img src="./images/pcup.png" alt="상품1" class="cup">
+        <img src="./images/cupt.png" alt="상품" class="pcup">
+</div>
 
-
-
-    </div>
-
-    <div id="link11">
+<div id="brand1">
 <img src="./images/brandstory1.jpg">
-    </div>
-
-    
-    <div id="link1">
-      
-    상세페이지
-    <ul>
-        <li><a href="./desun.html"><img src="./images/sun.jpg">
-        <div class="w_box">
-       
-            <h2>자세히 보기</h2>
-        </div>
-<!--w_box-->
-        </a></li>
-        
-        <li><a href="./deinte.html"><img src="./images/inte.jpg">
-        <div class="w_box">
-            
-            <h2>자세히 보기</h2>
-        </div><!--w_box-->
-        </a></li>
-        <li><a href="./decos.html"><img src="./images/cos.jpg">
-        <div class="w_box">
-            
-            <h2>자세히 보기</h2>
-        </div><!--w_box-->
-        </a></li>
-    </ul>
-    <ul>
-        <li><a href="./detable.html"><img src="./images/table.jpg">
-        <div class="w_box">
-            
-            <h2>자세히 보기</h2>
-        </div><!--w_box-->
-        </a></li >
-        <li class="ye"><a href="./desofa.html"><img src="./images/sofa.jpg">
-        <div class="w_box">
-            
-            <h2>자세히 보기</h2>
-        </div><!--w_box-->
-        </a></li>
-    </ul>
 </div>
 
 <div id="card">
 <p>명함</p>
-<p><img src="./images/card2.jpg">
+<p><img src="./images/card1.jpg">
             </p>
-            <p><img src="./images/card1.jpg">
+            <p><img src="./images/card2.jpg">
             </p>
 </div>
-       
 
+<div id="banner">
+배너광고 디자인
+        <img src="./images/banners.jpg"></div>
 
-<div id="banner1">
-   
-        <p>배너광고</p>
-
-<img src="./images/banner1.jpg" class="img1">
-<img src="./images/banner2.jpg" class="img2">
-<img src="./images/banner3.jpg" class="img3">
-<img src="./images/banner4.jpg" class="img4">
-</div>
-
-
-            
-      
-        <div id="footer">
-<div class:"footerinner">
-            
-                산업디자인에 주문이 가능한 품목은 그래픽디자인, 상세페이지,
+<div id="footer">
+<div class="footerinner">
+산업디자인에 주문이 가능한 품목은 그래픽디자인, 상세페이지,
                 인터넷배너광고, 카드디자인, 기타 특별주문 등입니다.
             산업디자인에 대한 문의사항은 평일 09:00~13:00까지 모바일 01044688813번.
            
                 전자우편은 시간에 상관없이 being211@yahoo.com으로 보내주시면 답이 있을거예요.
-       </div></div>
+</div></div>
 
-   
 </body>
+
+</html>
