@@ -89,14 +89,14 @@ color: #f62f1a; padding-bottom: 100px;
         background-image: url(./images/banner1.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
-width: 90%; margin: auto;
+width: 100%; height: 100%; margin: auto;
 }
 
 .banner2{padding-top: 50px; 
         background-image: url(./images/banner2.jpg);
   background-size: 100%;
 background-repeat: no-repeat;
-width: 90%; margin: auto;
+width: 100%; height: 100%; margin: auto;
 }
 
 .banner3{padding-top: 50px; 
