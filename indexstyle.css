@@ -14,14 +14,12 @@
     margin: auto;
 }
 
-#link1 h3{text-align: center; color: #f62f1a;}
-
 #link1 ul{
     margin: auto;
     display: flex;
 }
 
-#link1 ul li{padding: 10px 10px 5px 10px;}
+#link1 ul li{padding: 10px 10px 5px 10px; #f62f1a; text-align: center;}
 
 
 
