@@ -118,7 +118,7 @@ color: fffff0;
         }
 .logo {padding-left: 5px;}
 
-#front{width: calc(100%-10px); display: flex;}
+#front{display: flex;}
 
 .cup{width: 200px; animation: up_and_down 0.8s linear infinite alternate; 
 padding-top: 20%;
@@ -154,14 +154,20 @@ padding-top: 50%;
             width: 80%;
         }
 
+@media screen and (min-width:480px) {
+    #front img{max-width: 400px;
+    }
+  }
+
+
 
 @media screen and (min-width:480px) {
-    .banner1 img{width: 400px;
+    .banner img{max-width: 400px;
     }
   }
 
 @media screen and (min-width:880px) {
-    .banner1 img{width: 800px;
+    .banner img{max-width: 800px;
     }
   }
 
