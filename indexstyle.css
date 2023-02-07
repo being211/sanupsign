@@ -79,7 +79,7 @@ background-repeat: no-repeat;
 }
     
     #card{padding-top: 150px;
-color: #f62f1a;
+color: #f62f1a; padding: 30px;
 }
 
 #banner{padding-top: 200px;
