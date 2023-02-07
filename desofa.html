@@ -139,6 +139,10 @@ color: inherited;}
 
 
 
+#banner{max-width: 100%; margin: auto; 
+padding-top: 50%;
+}
+
 
 
         #de {
@@ -149,6 +153,17 @@ color: inherited;}
         #de img {margin: auto;
             width: 80%;
         }
+
+
+@media screen and (min-width:480px) {
+    .banner1 img{width: 400px;
+    }
+  }
+
+@media screen and (min-width:880px) {
+    .banner1 img{width: 800px;
+    }
+  }
 
     </style>
 </head>
@@ -171,7 +186,7 @@ color: inherited;}
                     <ul class="sub">
                         <li><a href="#link1">상세페이지</a></li>
                         <li><a href="#card">명함</a></li>
-<li><a href="#banner1">배너</a></li>
+<li><a href="#banner">배너</a></li>
                     </ul>
 
                 </li>
@@ -196,24 +211,22 @@ color: inherited;}
 
 
     <div id="de">
-        <img src="./images/desofapage.jpg">
-<h3>산업디자인</h3>
-<h3>런칭기념</h3>
-<h4>한정수량</h4>
-<h4>산업디자인종이컵</h4>
-<h4>1piece 1,000원</h4>
-<h5>산업디자인종이컵은 앞으로</h5>
-<h5>다양하게 디자인될 수 있는</h5>
-<h5>품목입니다.</h5>
+        <img src="./images/desofapage.jpg"></div>
+
+<div id="banner">
+    <p>
+        배너광고</p></div>
+<ul class="banner1">
+<li><img src="./images/banner1.jpg" class="img1"></li>
+<li><img src="./images/banner2.jpg" class="img2"></li>
+<li><img src="./images/banner3.jpg" class="img3"></li>
+<li><img src="./images/banner4.jpg" class="img4"></li>
+</ul>
+</div>
 
 
 
 
-
-
-
-
-    </div>
 </body>
 
 </html>
